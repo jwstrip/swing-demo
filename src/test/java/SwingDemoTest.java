@@ -11,6 +11,6 @@ public class SwingDemoTest {
     @Test
     public void testSomeLibraryMethod() {
         SwingDemo classUnderTest = new SwingDemo();
-        assertThat(classUnderTest.someLibraryMethod()).isEqualTo("someLibraryMethod should return 'true'");
+        assertThat(classUnderTest.someLibraryMethod()).isTrue();
     }
 }
