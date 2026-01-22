@@ -10,6 +10,7 @@
 // Apply the java plugin to add support for Java
 plugins{
     id 'java'
+    id 'edu.sc.seis.launch4j' version '4.0.0'
 }
 
 // In this section you declare where to find the dependencies of your project
@@ -28,4 +29,8 @@ dependencies {
 
 test{
     useJUnitPlatform()
+}
+
+launch4j {
+    mainClassName = 'src.main.java.SwingDemo'
 }
