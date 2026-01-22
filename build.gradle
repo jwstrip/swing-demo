@@ -33,6 +33,6 @@ test{
 }
 
 launch4j {
-    mainClassName = 'src.main.java.SwingDemo'
+    mainClassName = 'SwingDemo'
 }
 
