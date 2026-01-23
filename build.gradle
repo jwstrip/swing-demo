@@ -36,4 +36,3 @@ launch4j {
     mainClassName = 'SwingDemo'
     outfile ="SwingDemo.exe"
 }
-tasks.createExe.dependsOn jar
